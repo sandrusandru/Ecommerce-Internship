@@ -20,9 +20,6 @@ decrease.addEventListener('click',()=>{
         count = 0;
     }
     number.innerHTML = count;
- 
-    
-
 })
 
 
