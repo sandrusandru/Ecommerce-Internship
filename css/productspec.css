@@ -466,8 +466,7 @@ main{
 }
 .cart-btn{
     background-color: #CBFB45;
-    padding: 1.5rem;
-    width: 400px;
+    padding: 1.5rem 4rem;
     text-align: center;
     color: #0A0A08;
     font-weight: 600;
