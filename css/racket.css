@@ -134,6 +134,7 @@ main{
 {
     min-width:320px;
     min-height:500px;
+    cursor: pointer;
 }
 .col-card img
 {
@@ -253,6 +254,7 @@ main{
     height:420px !important;
     border-radius: 10px;
     overflow: hidden;
+    cursor: pointer;
 }
 .bs-card img
 {
