@@ -26,7 +26,7 @@ main{
     position: absolute;
     margin-top:75px;
     min-width: 100%;
-    background-color: #171717;
+    background-color: #FFFFFF;
     padding: 0 !important;
 }
 .hero-section
@@ -188,7 +188,7 @@ main{
 .hg-container .text-content p
 {
     padding: 1rem 2rem 0 0;
-    color:white;
+    color:#000000;
     font-weight: 700;
     font-size: 1.4rem;
 }
@@ -198,13 +198,13 @@ main{
 }
 .text-content .hg-btn a
 { 
-    background-color: white;
+    background-color: #171717;
     padding: 0.5rem 1rem;
     width: 100%;
     border-radius: 5px;
     text-decoration: none;
     font-weight: 600;
-    color: #0A0A08;
+    color: #ffffff;
     font-size: 0.8rem;
 }
 .hg-img
@@ -228,6 +228,8 @@ main{
     margin-top: 20px;
     height: 100%;
     padding: 2rem;
+    overflow-x: auto !important;
+    position: relative;
 }
 .bestseller-section h1{
     color:#CBFB45;
@@ -238,11 +240,16 @@ main{
 .bs-container
 {
     margin-top:1rem;
+    overflow: auto !important;
+    width: 100%;
+    position: relative;
 }
 .bs-list
 {
     overflow-x: auto;
     overflow-y: hidden;
+    width: 100%;
+    position: relative;
 }
 .bs-list::-webkit-scrollbar
 {
@@ -250,7 +257,6 @@ main{
 }
 .bs-card
 {
-    min-width: 300px !important;
     height:420px !important;
     border-radius: 10px;
     overflow: hidden;
