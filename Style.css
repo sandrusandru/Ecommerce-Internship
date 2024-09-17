@@ -5,8 +5,7 @@
 }
 
 body {
-    background-color: black !important;
-    color: white !important;
+    background-color: white !important;
 }
 
 .header-container {
@@ -387,3 +386,6 @@ body {
     color: #FBDE45;
 }
 
+.img-fluid{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
