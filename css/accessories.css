@@ -24,7 +24,7 @@ body
 main{
     position: absolute;
     width: 100% !important;
-    background-color: #171717;
+    background-color: #fff;
     padding: 0 !important;
     overflow: hidden;
 }
@@ -82,7 +82,7 @@ main section{
 .accessories-string .string-head
 {
     text-align: center;
-    color: white;
+    color: #000;
 }
 .string-head h2{
     color: #CBFB45;
@@ -97,7 +97,6 @@ main section{
     width: 100%;
     overflow: hidden;
     height: 400px !important;
-    background-color: #171717 !important;
     cursor: pointer;
     margin:1rem 0;
 }
@@ -123,7 +122,7 @@ main section{
 }
 .str-card .card-info
 {
-    color: white;
+    color: #000;
     font-size: 0.9rem;
     padding: 1rem 0;
 }
@@ -216,7 +215,7 @@ main section{
 .accessories-kits .kits-head
 {
     text-align: center;
-    color: white;
+    color: #000;
 }
 .kits-head h2{
     color: #CBFB45;
@@ -231,7 +230,6 @@ main section{
     width: 100%;
     overflow: hidden;
     height: 400px !important;
-    background-color: #171717 !important;
     cursor: pointer;
     margin:1rem 0;
 }
@@ -258,7 +256,7 @@ main section{
 }
 .kits-card .card-info
 {
-    color: white;
+    color: #000;
     font-size: 0.9rem;
     padding: 1rem 0;
 }
@@ -293,7 +291,7 @@ main section{
 {
     width: 80%;
     text-align: center;
-    color: white;
+    color: #000;
     font-size: 1rem;
 }
 .feedback-text h2{
@@ -311,7 +309,7 @@ main section{
 .feed-card
 {
     border: 1px solid #939393 !important;
-    background-color: #171717 !important;
+    background-color: #fff !important;
     padding: 1rem;
     display: flex;
     flex-direction: row !important;
@@ -328,7 +326,7 @@ main section{
 .feed-card .card-info
 {
     width: 75%;
-    color: white;
+    color: #000;
     font-weight: 200;
     font-style: italic;
 }
