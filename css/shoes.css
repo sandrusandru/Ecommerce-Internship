@@ -340,13 +340,13 @@ main section{
 
 .hgp-c {
     margin: 0.5rem 0;
-    color: white !important;
+    color: #000 !important;
     width: 100%;
     height: 100%;
     overflow: hidden;
     display: flex;
     justify-content: center;
-    background-color: #171717 !important;
+    border: none !important;
 }
 
 .hgp-c p {
@@ -386,7 +386,7 @@ main section{
 }
 .bs-s-head
 {
-    color: white;
+    color: #000;
     text-align: center;
     font-size: 1.5rem;
 }
@@ -400,13 +400,12 @@ main section{
 .sbs-c
 {
     margin:1rem 0;
-    min-height: 400px;
+    height:350px!important;
     width: 100%;
-    background-color: #171717 !important;
     cursor: pointer;
 }
 .sbs-c img{
-    min-height: 300px;
+    height: 300px !important;
     object-fit: contain;
     background-color:white;
     border-radius: 10px;
@@ -429,7 +428,7 @@ main section{
 {
     margin: 0;
     padding: 0.2rem 0;
-    color: white;
+    color: #000;
 }
 .sbs-c .card-info p:nth-child(1)
 {
@@ -503,7 +502,7 @@ main section{
 {
     width: 50%;
     text-align: center;
-    color: white;
+    color: #000;
     font-size: 1rem;
 }
 .feed-con
@@ -515,7 +514,7 @@ main section{
 .feed-card
 {
     border: 1px solid #939393 !important;
-    background-color: #171717 !important;
+    background-color: #fff !important;
     padding: 1rem;
     display: flex;
     flex-direction: row !important;
@@ -531,7 +530,7 @@ main section{
 .feed-card .card-info
 {
     width: 75%;
-    color: white;
+    color: #000;
     font-weight: 200;
     font-style: italic;
 }
