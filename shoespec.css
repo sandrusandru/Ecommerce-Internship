@@ -4,10 +4,7 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: #171717;
-    color: white;
-}
+
 
 .colors {
     display: flex;
@@ -124,7 +121,6 @@ body {
     color: #CBFB45;
 }
 .section-3 p{
-    color: white;
     border: 1px solid lightgray;
     padding: 20px;
     border-radius: 20px;
@@ -168,4 +164,8 @@ body {
 }
 .addcard {
     user-select: none;
+}
+
+.boxx{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
