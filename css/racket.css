@@ -444,6 +444,7 @@ main{
     justify-content: center;
     align-items: center;
     padding: 1rem 0 !important;
+    cursor: pointer;
 }
 .footer-img-warpper img{
     height: 30px;
@@ -470,12 +471,22 @@ main{
 }
 .icon-wrapper
 {
-    display: flex;
-    justify-content: space-around;
-    padding: 0.5rem 1rem;
+    text-align: left;
+    padding: 0.5rem 0;
     font-size: 1.5rem;
     cursor: pointer;
+    text-wrap: nowrap;
+}
+.icon-wrapper i{
+    margin-right:1rem;
 }
 .icon-wrapper i:hover{
     color: blue;
+}
+
+@media screen and (max-width:756px) {
+    .footer-con
+    {
+        padding: 3rem 0.5rem;
+    }
 }
