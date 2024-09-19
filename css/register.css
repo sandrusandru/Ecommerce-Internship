@@ -114,9 +114,14 @@ main{
 }
 .form-al-con
 {
-    width: 500px;
     overflow: hidden !important;
 }
 .main-form-con p{
     margin: 1rem;
+}
+@media screen and (min-width:700px) {
+    .form-al-con
+    {
+        width: 100% !important;
+    }
 }

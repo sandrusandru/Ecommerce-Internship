@@ -121,7 +121,6 @@ main{
 }
 .form-al-con
 {
-    width: 500px;
     overflow: hidden !important;
     display: flex;
     flex-direction: column;
