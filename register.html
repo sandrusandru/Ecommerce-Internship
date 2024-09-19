@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../css/login.css" />
+
+    <link rel="stylesheet" href="./css/register.css" />
 
      <!-- bootstrap -->
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -19,6 +20,7 @@
 
 </head>
 <body>
+
     <header >
         <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="navbar">
             <div class="container-fluid">
@@ -61,12 +63,25 @@
            <div class="form-al-con">
             <div class="form-header">
                 <a href="" class="form-brand">
-                    <img src="../images/Frame 1.png" alt="Logo" class="d-inline-block align-top"/>
+                    <img src="./images/Frame 1.png" alt="Logo" class="d-inline-block align-top"/>
                 </a>
+                <p>Sign up for your Club Membership</p>
+                <div class="form-header-btn">
+                    <button type="button" class="btn btn-outline-dark">Continue with Google</button>
+                </div>
            </div>
+           <div class="or-cl"><h5><span>OR</span></h5></div>
            <div class="main-form-con">
-            <p>Login with your Studio Account.</p>
+                <p>Sign up with email address</p>
                 <form class="row">
+                    <div class="mb-3 col-12 col-md-7">
+                        <label for="firstNameInput" class="form-label">First Name</label>
+                        <input type="text" class="form-control" id="firstNameInput">
+                    </div>
+                    <div class="mb-3 col-12 col-md-7">
+                        <label for="lastNameInput" class="form-label">Last Name address</label>
+                        <input type="text" class="form-control" id="lastNameInput">
+                    </div>
                     <div class="mb-3 col-12 col-md-7">
                       <label for="exampleInputEmail1" class="form-label">Email address</label>
                       <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
@@ -75,15 +90,38 @@
                       <label for="exampleInputPassword1" class="form-label">Password</label>
                       <input type="password" class="form-control" id="exampleInputPassword1">
                     </div>
+                    <div class="mb-3 col-md-7">
+                        Gender
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            <label class="form-check-label" for="flexRadioDefault1">
+                              Male
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            <label class="form-check-label" for="flexRadioDefault1">
+                              Female
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            <label class="form-check-label" for="flexRadioDefault1">
+                              Others
+                            </label>
+                          </div>
+                    </div>
+                    <div class="form-check col-md-7">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Receive important information and order updates over Email?
+                        </label>
+                      </div>
                     <button type="submit" class="btn col-md-6">SUBMIT</button>
                   </form>
+                  <p>Already a member? Login with your Account.</p>
+                  <p>By continuing, you agree to our Privacy Policy and Terms of Use.</p>
            </div>
-           <div class="or-cl"><h5><span>OR</span></h5></div>
-           <div class="form-header-btn">
-            <button type="button" class="btn btn-outline-dark">Continue with Google</button>
-            <p>New here? Join the club.</p>
-            <p>By continuing, you agree to our Privacy Policy and Terms of Use.</p>
-            </div>
            </div>
         </div>
     </main>
