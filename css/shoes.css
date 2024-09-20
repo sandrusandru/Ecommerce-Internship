@@ -590,11 +590,20 @@ main section{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1rem 0 !important;
+    padding:0.5rem 0.7rem !important;
     cursor: pointer;
+    height: 100%;
 }
 .footer-img-warpper img{
-    height: 30px;
+    height: 40px;
+    width: 40px;
+    background-color: #000;
+    border-radius: 50%;
+    object-fit: contain;
+    padding: 0.2rem;
+}
+.footer-img-warpper span{
+    margin: 0 0.2rem;
 }
 .footer-card ul{
     list-style: none;
