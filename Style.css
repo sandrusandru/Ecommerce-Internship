@@ -57,23 +57,24 @@ body {
     border-radius: 10px;
     margin-top: 30px;
 }
-
 .header-content-col1 h1 {
     color: #FFF2F2;
 }
-
-.header-content-col1 button {
+@media screen and (max-width:1000px) 
+{
+    .header-btn
+    {
+        text-align: center;
+    }   
+}
+.header-btn button {
     background-color: #CBFB45;
-    margin-left: 20px;
-    width: 150px;
-    height: 50px;
-    font-size: 29px;
-    font-weight: 900;
-    font-family: Poppins;
+    padding: 0 2rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
     border-radius: 29px;
 }
-
-
 .card-item {
     width: 290px;
     height: 300px;
