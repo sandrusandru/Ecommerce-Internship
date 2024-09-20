@@ -14,8 +14,7 @@ body {
 }
 
 .logo {
-    margin-top: 20px;
-    margin-left: 74px;
+    margin-left: 54px;
 }
 
 .header-link ul {
@@ -68,7 +67,7 @@ body {
     }   
 }
 .header-btn button {
-    background-color: #CBFB45;
+    background-color: white;
     padding: 0 2rem;
     font-size: 1.5rem;
     font-weight: 600;
