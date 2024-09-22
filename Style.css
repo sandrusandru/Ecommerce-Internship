@@ -67,12 +67,15 @@ body {
     }   
 }
 .header-btn button {
-    background-color: white;
+    background-color:#CBFB45;
     padding: 0 2rem;
     font-size: 1.5rem;
     font-weight: 600;
     font-family: "Poppins", sans-serif;
     border-radius: 29px;
+}
+.header-btn button:hover {
+    background-color: white;
 }
 .card-item {
     width: 290px;
