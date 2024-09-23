@@ -200,13 +200,9 @@ main{
 .bs-list
 {
     overflow-x: auto;
-    overflow-y: hidden;
+    overflow-y: hidden !important;
     width: 100%;
     position: relative;
-}
-.bs-list::-webkit-scrollbar
-{
-    width: 0;
 }
 .myswiper
 {
@@ -321,6 +317,7 @@ main{
     margin-top: 20px !important;
     height: 100%;
     padding: 2rem;
+    overflow: hidden !important;
 }
 .shop-acc-section h1{
     color:#CBFB45;
@@ -332,15 +329,11 @@ main{
 {
     height: 100%;
     padding: 0.8rem 0;
-    overflow: hidden;
+    overflow: hidden !important;
 }
 .sacc-list
 {
-    overflow-x: auto;
-}
-.sacc-list::-webkit-scrollbar
-{
-    width: 0;
+    overflow:hidden !important;
 }
 .sacc-card
 {
