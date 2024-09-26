@@ -40,7 +40,8 @@ main{
     position: relative;
     margin-top:75px;
     min-width: 100%;
-    background-color: #FFFFFF;
+    background-color: #171717;
+    color: white;
     padding: 0 !important;
 }
 .form-conatiner
@@ -64,6 +65,9 @@ main{
 .form-brand
 {
     margin: 1rem;
+}
+.form-brand img{
+    height: 100px;
 }
 .form-header p{
     font-size: 1.2rem;
@@ -91,13 +95,13 @@ main{
     margin: 0;
     width: 30%; 
     text-align: center; 
-    border-bottom: 1px solid #000; 
+    border-bottom: 1px solid #fff; 
     line-height: 0.1em;
     font-weight: 300;
 } 
 .or-cl h5 span 
 { 
-     background:#fff; 
+     background:#171717; 
      padding:0 10px; 
 }
 .main-form-con
@@ -119,9 +123,14 @@ main{
 }
 .main-form-con form .btn
 {
-    background-color: #171717;
-    color:white;
+    background-color: white;
+    color:#171717;
     font-weight: 600;
+    margin:1rem 0;
+}
+.main-form-con form .btn:hover
+{
+    color: #171717;
 }
 .main-form-con form label
 {
