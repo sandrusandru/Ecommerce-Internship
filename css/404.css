@@ -6,6 +6,10 @@ body
 {
    min-width: 100%;
 }
+#navbar
+{
+    background-color: #171717;
+}
 .navbar-brand
 {
     display: flex;
@@ -17,21 +21,18 @@ body
 {
     font-size: 20px;
     font-weight: 700;
-    color: #0A0A08;
+    color: white;
     cursor: pointer;
     margin:0 1rem;
 }
 .navbar-brand  img{
-    width: 50px;
-    height: 50px;
-    background-color: #000000;
-    border-radius: 50%;
+    width: 70px;
+    height: 70px;
     object-fit: contain;
-    padding: 0.2rem;
 }
 #myNavbar ul li a
 {
-    color: #0A0A08 !important;
+    color: white !important;
     font-weight: 600;
     text-decoration: underline;
 }
@@ -81,27 +82,25 @@ main{
 }
 .footer-img-warpper
 {
-    background-color: white;
-    color: black;
-    border-radius: 10px;
+    color: white;
     overflow: hidden;
-    height: 40px;
     font-weight: 600;
     font-size: 1.2rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding:0.5rem 0.7rem !important;
     cursor: pointer;
     height: 100%;
+    flex-wrap: nowrap !important;
 }
 .footer-img-warpper img{
-    height: 40px;
-    width: 40px;
-    background-color: #000;
-    border-radius: 50%;
+    height: 70px;
+    width: 50px;
     object-fit: contain;
-    padding: 0.2rem;
+}
+.footer-img-warpper a{
+    color: white;
+    text-decoration: none;
 }
 .footer-img-warpper span{
     margin: 0 0.2rem;

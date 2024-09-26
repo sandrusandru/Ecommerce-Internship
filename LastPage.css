@@ -112,21 +112,28 @@ body{
 }
 .footer-img-warpper
 {
-    background-color: white;
-    color: black;
-    border-radius: 10px;
+    color: white;
     overflow: hidden;
-    height: 40px;
     font-weight: 600;
     font-size: 1.2rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1rem 0 !important;
     cursor: pointer;
+    height: 100%;
+    flex-wrap: nowrap !important;
 }
 .footer-img-warpper img{
-    height: 30px;
+    height: 70px;
+    width: 50px;
+    object-fit: contain;
+}
+.footer-img-warpper a{
+    color: white;
+    text-decoration: none;
+}
+.footer-img-warpper span{
+    margin: 0 0.2rem;
 }
 .footer-card ul{
     list-style: none;
