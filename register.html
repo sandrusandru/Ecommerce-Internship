@@ -29,7 +29,7 @@
                 <span>MIN 10 PRO</span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNavbar" aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span class="nav-tog-icon" role="button" ><i class="fa fa-bars" aria-hidden="true" style="color:#e6e6ff"></i></span>
               </button>
             <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="navbar-nav ms-auto">
@@ -39,14 +39,17 @@
                         <li class="nav-item">
                             <a class="nav-link" href="course.html">Courses</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="racket.html">Racket</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="shoes.html">Shoes</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="accessories.html">Accessories</a>
+                        <li>
+                            <div class="dropdown">
+                                <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Products
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                  <li><a class="nav-link" href="racket.html">Racket</a></li>
+                                  <li><a class="nav-link" href="shoes.html">Shoes</a></li>
+                                  <li><a class="nav-link" href="accessories.html">Accessories</a></li>
+                                </ul>
+                              </div>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="aboutus.html">About us</a>
@@ -54,7 +57,7 @@
                         <li class="nav-item">
                             <a class="nav-link" href="contactus.html">Contact us</a>
                         </li>
-                        <button type="button" class="btn btn-dark" onClick="openpage('login.html')">Login</button>
+                        <button type="button" class="btn btn-dark nav-lbtn" onClick="openpage('login.html')">Login</button>
                     </ul>
             </div>
             </div>

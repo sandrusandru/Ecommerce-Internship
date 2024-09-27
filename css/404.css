@@ -34,7 +34,46 @@ body
 {
     color: white !important;
     font-weight: 600;
-    text-decoration: underline;
+   
+}
+.navbar-toggler
+{
+    padding:0.5rem 1rem !important;
+}
+.nav-tog-icon span
+{
+    color: white !important;
+}
+.dropdown
+{
+    padding-top:3px ;
+}
+#dropdownMenuLink
+{
+    border: none !important;
+    padding-left: 0.5rem;
+    padding-right:0.5rem;
+}
+@media screen and (max-width:993px) 
+{
+    #dropdownMenuLink
+    {
+        border: none !important;
+        padding-left: 0;
+    }
+    .nav-lbtn
+    {
+        width: 100px;
+    }
+}
+.dropdown-menu
+{
+    background-color: #171717!important;
+}
+.dropdown-menu li .nav-link:hover
+{
+    transform: translateX(5px);
+    transition: .3s ease-in-out;
 }
 
 main{
