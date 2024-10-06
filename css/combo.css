@@ -264,8 +264,7 @@ main section{
 }
 .combo-racket-info
 {
-    text-align: center;
-    height: 100 !important;
+    height:100;
     padding: 1rem ;
     text-align:left !important;
 }
