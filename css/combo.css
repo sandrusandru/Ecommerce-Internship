@@ -87,136 +87,125 @@ main{
 main section{
     margin-top:4rem;
 }
-.shoes-hero-sec
+.combo-hero-sec
 {
     width: 100%;
     height:100%;
     position: relative;
 }
-.shoe-hero-img
+.combo-hero-img
 {
     height: 100vh;
     width: 100%;
+    background-color: #fbed73;
 }
-.shoe-hero-img img{
+.combo-hero-img img{
     height:100vh;
     width: 100%;
-    object-fit:cover;
-    object-position:bottom;
+    object-fit:contain;
+    object-position:center;
 }
-.shoe-hero-btn
+.combo-hero-btn
 {
     position: absolute;
-    top: 20%;
-    left:8%;
-    width: 350px;
+    top: 25%;
+    left:4%;
+    width:50%;
     text-align: center;
-    display: flex;
-    flex-direction:column;
-    align-items: center;
+   
     border: none;
     padding: 1rem;
+    text-align: left !important;
 }
-.shoe-hero-btn::before,
-.shoe-hero-btn::after
-{
-    position: absolute;
-  width: 350px;
-  height: 50px;
-  content: "";
-}
-.shoe-hero-btn::before
-{
-    right: 0;
-  top: 0;
-  border-right: 4px solid white;
-  border-top: 4px solid white;
-}
-.shoe-hero-btn::after
-{
-    left: 0;
-  bottom: 0;
-  border-left: 4px solid white;
-  border-bottom: 4px solid white;
-}
-.shoe-hero-btn p{
+.combo-hero-btn p{
+    font-size: 2.3rem;
     color: white;
-    margin: 0;
-}
-.shoe-hero-btn p:nth-child(1)
-{
-    font-size: 1.7rem;
     font-weight: 700;
+    text-align: left;
+    text-transform: uppercase;
 }
-.shoe-hero-btn p:nth-child(2)
-{
-    font-size: 2.5rem;
+.combo-hero-btn a{
+    background-color: #171717;
+    color: white !important;
     font-weight: 700;
-}
-.shoe-hero-btn p:nth-child(3)
-{
-    font-size: 3rem;
-    font-weight: 800;
-}
-.shoe-hero-btn p:nth-child(4){
-    background-color: #0A0A08;
-    padding: 0.5rem;
+    padding: 0.5rem 1.5rem;
     border-radius: 10px;
-    width: 250px;
     cursor: pointer;
-    z-index: 99;
-    font-weight: 500;
 }
 /* first combo */
-.shop-acc-section
+.combo-acc-section
 {
     margin-top: 20px !important;
     height: 100%;
     padding: 2rem;
     overflow: hidden !important;
 }
-.shop-acc-section h1{
+.combo-acc-section h1{
     color:#CBFB45;
-    height: 60px;
     line-height: 30px;
     font-size: 2.2rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
 }
-
-.sacc-card
+.combo-acc-section p{
+    text-align: center;
+    font-size: 1.2rem;
+}
+.combo-card
 {
     min-width:350px;
     height: 100% !important;
     display: flex !important;
     background-color: white;
     overflow: hidden;
+    border-radius: 15px !important;
+    cursor: pointer;
 }
-.sacc-card img{
+.combo-card img{
     width: 100%;
     height: 350px !important;
     object-fit: contain;
     object-position: center;
 }
-.sacc-card-info
+.combo-card-info
 {
     text-align: center;
-    height: 120px !important;
+    height: 100 !important;
     padding: 1rem ;
+    text-align: left !important;
 }
-.sacc-card-info h3{
-    height: 38px;
+.combo-card-info h3
+{
     line-height: 38px;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 700;
-    margin-bottom: 20px;
 }
-.sacc-card-info a{
-    height: 56px;
-    padding:0.3rem 1.5rem;
-    background-color: #F3F5F8;
-    margin-top:20px !important;
-    box-shadow: 0px 4px 4px #00000040;
-    font-weight: 500;
-    cursor: pointer;
+.combo-card-info p:nth-child(2)
+{
+    color: black !important;
+    font-weight: 600;
+    text-align: left !important;
+}
+.combo-card-info p:nth-child(2) span
+{
+    color: #636363 !important;
+    font-weight: 600;
+    text-decoration: line-through;
+}
+.combo-card-info p:nth-child(3)
+{
+    text-align: left !important;
+}
+.combo-color-circle
+{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%; 
+    vertical-align: middle; 
+    margin-left: 5px;
+    margin-right: 5px;
 }
 .myswiper
 {
@@ -225,6 +214,111 @@ main section{
 .myswiper .card-item
 {
     margin: 1rem 0 !important;
+}
+/* second combo */
+
+.combo-racket-section
+{
+    margin-top: 20px !important;
+    height: 100%;
+    padding: 2rem;
+    overflow: hidden !important;
+}
+.combo-racket-section h1{
+    color:#CBFB45;
+    line-height: 30px;
+    font-size: 2.2rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.combo-racket-section p{
+    text-align: center;
+    font-size: 1.2rem;
+}
+.combo-racket-card
+{
+    min-width:350px;
+    height: 100% !important;
+    display: flex !important;
+    background-color: white;
+    overflow: hidden;
+    border-radius: 15px !important;
+    cursor: pointer;
+}
+.combo-racket-card img{
+    width: 100%;
+    height: 350px !important;
+    object-fit: contain;
+    object-position: center;
+}
+.combo-racket-card .badge
+{
+    background-color: #CBFB45;
+    color: #0A0A08;
+    position: absolute;
+    padding: 0.5rem 1rem;
+    top:3%;
+    left:5%;
+    font-weight: 600;
+}
+.combo-racket-info
+{
+    text-align: center;
+    height: 100 !important;
+    padding: 1rem ;
+    text-align:left !important;
+}
+.combo-racket-info h3
+{
+    line-height: 38px;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.combo-racket-info .brand-name
+{
+    text-align: left;
+    color: #9E9E9E !important;
+    font-weight: 600;
+    margin: 0;
+}
+.combo-racket-info .description
+{
+    color: black !important;
+    font-weight: 600;
+    text-align: left;
+    margin: 0;
+}
+.combo-racket-info .price
+{
+    color: #CBFB45 !important;
+    font-weight: 600;
+    text-align: left;
+}
+.combo-racket-info .price span{
+    color:#999999 !important;
+    text-decoration: line-through;
+    margin-left: 1rem;
+}
+.combo-racket-info .review
+{
+    text-align: left;
+    font-size: 1rem;
+}
+.combo-racket-info .review .star
+{
+    color: #FBDE45;
+    margin-right: 1rem;
+}
+.combo-racket-info .rc-btn
+{
+    background-color: #171717;
+    padding:0.4rem 2rem;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-decoration: none;
 }
 /* footer style */
 .footer-con
