@@ -55,18 +55,7 @@ body
     padding-left: 0.5rem;
     padding-right:0.5rem;
 }
-@media screen and (max-width:993px) 
-{
-    #dropdownMenuLink
-    {
-        border: none !important;
-        padding-left: 0;
-    }
-    .nav-lbtn
-    {
-        width: 100px;
-    }
-}
+
 .dropdown-menu
 {
     background-color: #171717!important;
@@ -102,7 +91,7 @@ main section{
 .combo-hero-img img{
     height:100vh;
     width: 100%;
-    object-fit:contain;
+    object-fit:cover;
     object-position:center;
 }
 .combo-hero-btn
@@ -112,7 +101,6 @@ main section{
     left:4%;
     width:50%;
     text-align: center;
-   
     border: none;
     padding: 1rem;
     text-align: left !important;
@@ -131,6 +119,40 @@ main section{
     padding: 0.5rem 1.5rem;
     border-radius: 10px;
     cursor: pointer;
+}
+@media screen and (max-width:993px) 
+{
+    #dropdownMenuLink
+    {
+        border: none !important;
+        padding-left: 0;
+    }
+    .nav-lbtn
+    {
+        width: 100px;
+    }
+    
+}
+@media screen and (max-width:870px) 
+{
+    .combo-hero-btn
+    {
+        position: absolute;
+        top: 25%;
+        left:0;
+        width:100%;
+        text-align: center;
+        border: none;
+        padding: 1rem;
+        text-align: left !important;
+    }
+}
+@media screen and (max-width:640px) 
+{
+    .combo-hero-btn
+    {
+        text-align: center !important;
+    }
 }
 /* first combo */
 .combo-acc-section
