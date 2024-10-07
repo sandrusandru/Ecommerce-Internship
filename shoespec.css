@@ -199,9 +199,18 @@
     height: 100%;
     flex-wrap: nowrap !important;
 }
-.footer-img-warpper img{
+.footer-img-warpper  img:nth-child(1){
+    width: 60px;
     height: 70px;
-    width: 50px;
+    object-position: center;
+    object-fit: contain;
+}
+.footer-img-warpper  img:nth-child(2){
+    width: 90px;
+    height: 70px;
+    margin-top: 5px;
+    margin-left: 0.5rem;
+    object-position: center;
     object-fit: contain;
 }
 .footer-img-warpper a{
@@ -272,9 +281,18 @@
     cursor: pointer;
     margin:0 1rem;
 }
-.navbar-brand  img{
+.navbar-brand  img:nth-child(1){
     width: 70px;
     height: 70px;
+    object-position: center;
+    object-fit: contain;
+}
+.navbar-brand  img:nth-child(2){
+    width: 100px;
+    height: 70px;
+    margin-top: 10px;
+    margin-left: 0.5rem;
+    object-position: center;
     object-fit: contain;
 }
 #myNavbar ul li a
