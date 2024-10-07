@@ -53,6 +53,7 @@ body {
 }
 .header-btn button:hover {
     background-color: white;
+    color: #171717;
 }
 .card-item {
     width: 290px;
