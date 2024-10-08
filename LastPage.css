@@ -47,6 +47,22 @@ body{
 .section-2 h2{
     color: #CBFB45;
 }
+.section-2 .row div
+{
+    position: relative;
+    cursor: pointer;
+}
+.section-2 .row div span
+{
+    position: absolute;
+    color: #171717;
+    z-index:999;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font-weight: 700;
+    font-size: 1.5rem;
+}
 .section-3{
     margin-top: 50px;
 }
